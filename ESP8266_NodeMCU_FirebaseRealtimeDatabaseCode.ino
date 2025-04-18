@@ -1,6 +1,8 @@
 #include<Wire.h>
 #include "FirebaseESP8266.h"
 #include<ESP8266WiFi.h>
+//#include "FirebaseESP8266.h"   // => for ESP32
+//#include<ESP8266WiFi.h>        // => for ESP32
 
 const int MledPin = 13;
 char FIREBASE_AUTH [] = " "; // Your Firebase Web API Key
